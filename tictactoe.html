@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tictactoe.css" />
+    <script src="tictactoe.js" defer></script>
+    <title>Jogo Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>TIC TAC TOE</h1>
+
+    <label for="player1" id="pl1">X:</label>
+    <input type="text" id="player1" placeholder="Nome do Jogador 1" />
+    <label for="player2" id="pl2">O:</label>
+    <input type="text" id="player2" placeholder="Nome do Jogador 2" />
+    <button id="start">Começar!</button>
+
+    <h2>Vez de: <span id="turnPlayer"></span></h2>
+
+    <section id="gameBoard">
+      <span class="cursor-pointer" data-region="0.0"></span>
+      <span class="cursor-pointer" data-region="0.1"></span>
+      <span class="cursor-pointer" data-region="0.2"></span>
+      <span class="cursor-pointer" data-region="1.0"></span>
+      <span class="cursor-pointer" data-region="1.1"></span>
+      <span class="cursor-pointer" data-region="1.2"></span>
+      <span class="cursor-pointer" data-region="2.0"></span>
+      <span class="cursor-pointer" data-region="2.1"></span>
+      <span class="cursor-pointer" data-region="2.2"></span>
+    </section>
+    <br />
+    <button id="restart">Restart Game!</button>
+  </body>
+</html>
